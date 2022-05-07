@@ -1,0 +1,48 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem;
+  background: #222;
+}
+
+.footer .credit {
+  font-size: 2rem;
+  color: #eee;
+}
+
+.footer .credit span {
+  color: #0098a1;
+}
+
+
+.footer .icons a {
+  font-size: 2rem;
+  margin: 0 .5rem;
+  height: 4rem;
+  width: 4rem;
+  line-height: 3.5rem;  /* centrar iconos dentro del circulo border */
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  border: .2rem solid #fff;  
+  transition: .2s linear;
+}
+
+.footer .icons a:hover {
+  background: #0098a1;
+}
+
+
+
+@media (max-width: 768px) {
+  
+  .footer {
+    flex-flow: column;
+  }
+
+  .footer .credit {
+    text-align: center;
+    padding: 2rem 0;
+  }
+}

@@ -1,0 +1,99 @@
+.heading {
+  color: #333;
+  font-size: 3.5rem;
+  padding: 1rem;
+  padding-top: 6rem;
+  text-align: center;
+  letter-spacing: .2rem;
+}
+
+.heading span {
+  color: #0098a1;;
+}
+
+.feature {
+  min-height: 100%;
+  background: #f9f9f9;
+}
+
+.feature .card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 6rem;
+}
+
+.feature .card-container .card {
+  width: 30rem;
+  margin: 2rem;
+  background-color: #fff;
+  border-radius: .5rem;
+  box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+  overflow: hidden;
+  position: relative;
+}
+
+.feature .card-container .card img {
+  height: 25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.feature .card-container .content {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.feature .card-container .content .title {
+  color: #0098a1;
+  font-size: 3rem;
+}
+
+.feature .card-container .content p {
+  color: #333;
+  font-size: 1.4rem;
+  padding: 1rem;
+}
+
+.feature .card-container .content .stars i {
+  padding: 0 .2rem;
+  font-size: 2rem;
+  color: gold;
+}
+
+.feature .card-container .content .btn {
+  font-size: 1.7rem;
+  margin-top: 1.4rem;
+  height: 3.5rem;
+  width: 12rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  background-color: #0098a1;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s linear;
+}
+
+.feature .card-container .content .btn:hover {
+  border: .2rem solid #0098a1;
+  color: #0098a1;
+  background: none;
+}
+
+.feature .card-container .card .discount {
+  position: absolute;  
+  top: 1rem;
+  left: 1rem;
+  display: block;
+  height: 3.5rem;
+  width: 6rem;
+  background-color: #ff3300;
+  color: #fff;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
